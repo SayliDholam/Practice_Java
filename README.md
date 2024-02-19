@@ -1,2 +1,2 @@
 # Practice_Java
-Java concepts
+JA few lines of code in attempt to learn Python
