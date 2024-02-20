@@ -1,2 +1,2 @@
 # Practice_Java
-Java concepts
+A few lines of code in attempt to learn Java
