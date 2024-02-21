@@ -101,38 +101,5 @@ class Conditional{
 			System.out.println("Its a weekday :( ");
 		}
 
-
-
-		//leap year based on centurian
-		System.out.println("\n\nEnter a year : ");
-		int year = sc.nextInt();
-
-		if((year % 100) != 0)
-		{
-			if((year % 4) == 0){
-				System.out.println("Its not a centuary leap year");
-			}
-			else{
-				System.out.println("Its not a leap year");
-			}
-		}
-
-		else{
-			if((year % 400) == 0){
-				System.out.println("Its a centurian leap year");
-			}
-			else{
-				System.out.println("Its not a leap year");
-			}
-		}
-
-
-		//calculate number of notes for the given amount
-		System.out.println("\n\nEnter an amount : ");
-		int amt = sc.nextInt();
-
-		System.out.println("\n\nEnter an range of notes : ");
-		int range = sc.nextInt();
-
 	}
 }
