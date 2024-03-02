@@ -21,7 +21,7 @@ public class Q1_Sum_FirstLast
             num = num / 10;
 
             if (num == 0) {
-                sum = sum + curDigit;
+                sum = sum + curtDigit;
             }
         }
         System.out.println("Sum of first and last digits : " + sum);
