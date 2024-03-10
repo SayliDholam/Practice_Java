@@ -31,9 +31,9 @@ class Q6{
 
 /*
 
-('J' - 1 + j): This expression calculates the ASCII value of the character to be printed in each iteration.
+('A' - 1 + j): This expression calculates the ASCII value of the character to be printed in each iteration.
 
-''J' is the starting character.
+''A' is the starting character.
 -1 is subtracted to adjust the position because we want to start from 'J' and go backwards.
 +j is added to move through the characters in the reverse order.
 
