@@ -7,6 +7,7 @@ pattern9
  * * * * *
 
 
+
 class P9{
 	public static void main(String[] args) {
 		int i, j , k;
@@ -29,13 +30,12 @@ class P9{
 
 
 
-
        *
      * * *
    * * * * *
  * * * * * * *
-*/
 
+*/
  class P9 {
     public static void main(String[] args) {
         int i, j, k;
