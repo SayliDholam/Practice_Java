@@ -1,2 +1,3 @@
 # Practice_Java
-Few lines of code in an attempt to learn Java...
+Welcome to my Practice_Java Repository<br>
+
