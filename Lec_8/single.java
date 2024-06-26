@@ -1,5 +1,6 @@
 // hw single inheritance 
 
+
 class single_A
 {
 	static int a = 102;
@@ -20,11 +21,11 @@ class single_A
 	}
 	single_A(int x)
 	{
-		System.out.println("non parametarized constructor of singleA " + x);
+		System.out.println("parametarized constructor of singleA " + x);
 	}
 }
 
-class single_B
+class single_B extends single_A
 {
 	static int a1 = 1663;
 	int b1 = 365;
@@ -42,7 +43,7 @@ class single_B
 	}
 	single_B(int x)
 	{
-		System.out.println("non parametarized constructor of singleB " + x);
+		System.out.println("parametarized constructor of singleB " + x);
 	}
 
 	
@@ -68,7 +69,7 @@ class single{
         System.out.println();
         
         // Calling non-static methods
-        objA.m1();
+        objB.m1(); // 
         objB.m3();
         System.out.println();
         
@@ -84,9 +85,15 @@ class single{
         //pass values 
 
 
-
-
 		
 	}
 	
 }
+
+
+
+/*
+When you create an object of single_B, 
+the constructor of single_A (the parent class) is automatically called before the constructor of single_B 
+because of the inheritance relationship.
+*/
