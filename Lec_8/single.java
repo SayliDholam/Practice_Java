@@ -1,5 +1,4 @@
-
-//single inheritance 
+// hw single inheritance 
 
 class single_A
 {
