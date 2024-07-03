@@ -1,5 +1,5 @@
 # Practice_Java
-Welcome to my Practice_Java Repository<br>
+Welcome to my Practice_Java Repository<br><br>
 
 1. Data Types
 2. Arrays
@@ -8,6 +8,4 @@ Welcome to my Practice_Java Repository<br>
 5. Pattern Problems
 6. OOP Concepts
 7. Data Structures & Algorithms (DSA)
-
-8. 
 
